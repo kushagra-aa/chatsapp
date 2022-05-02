@@ -1,16 +1,22 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+:root {
+  --primary1: #f7f7f7;
+  --primary2: #eeeeee;
+  --primary3: #393e46;
+  --secondary: #929aab;
+  --accent: #f05454;
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
+::-moz-selection {
+  color: var(--primary2);
+  background: var(--accent);
 }
-
+/* Code for Firefox */
+::selection {
+  color: var(--primary2);
+  background: var(--accent);
+}
 * {
+  padding: 0px;
+  margin: 0px;
+  color: var(--primary3);
   box-sizing: border-box;
 }
