@@ -1,34 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ChatsApp
 
-## Getting Started
+<img src="./public/logo.png" width="15%" alt="logo"/>
 
-First, run the development server:
+ChatsApp is clone of WhatsApp, this is a Chating Application that is built on NextJS and uses Firebase for Database and Google Authentication.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Users can enter the mail address for there friends and start chatting
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> other user needs to be LoggedIn in other to chat
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Built with 🤍 For You!
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Hosted On vercel
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<a target="_blank" href="https://mysocial-k.vercel.app/">
+  Visit Here
+</a>
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## Screenshots
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Chats Page
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<img src="https://user-images.githubusercontent.com/68841296/166658436-b62d32db-453d-47e7-8eb5-7f2f7d946442.png" width="75%" />
 
-## Deploy on Vercel
+### Login Page
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<img src="https://user-images.githubusercontent.com/68841296/166658312-b2979249-b5f4-4d00-8101-b1f5f3c0665a.png" width="75%" />
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Made using
+
+- [HTML](https://www.w3schools.com/html/)
+- [CSS](https://www.w3schools.com/css/default.asp)
+- [JavaScript](https://www.w3schools.com/js/default.asp)
+- [Styled Components](https://styled-components.com/)
+- [MUI](https://mui.com/)
+- [ReactJs](https://reactjs.org/)
+- [NextJs](https://nextjs.org/)
+- [NodeJs](https://nodejs.org/en/)
+- [Firebase](https://firebase.google.com/)
+
+### Tools
+
+- [Adobe Illustrator](https://www.adobe.com/in/products/illustrator.html?gclid=CjwKCAjwrfCRBhAXEiwAnkmKmW22TvR_yR5HsJU6LKlqymL7bsf2_JZPurewrpYvRR9I2H412N4x0hoCsd0QAvD_BwE&sdid=SBNHMR64&mv=search&ef_id=CjwKCAjwrfCRBhAXEiwAnkmKmW22TvR_yR5HsJU6LKlqymL7bsf2_JZPurewrpYvRR9I2H412N4x0hoCsd0QAvD_BwE:G:s&s_kwcid=AL!3085!3!248235017693!e!!g!!adobe%20illustrator!221172068!17525759228)
+- [VS Code](https://code.visualstudio.com/)
+
+### Some Websites Used
+
+- [Favicon.io](https://favicon.io/)
+
+## Concepts Used
+
+- Next SSR
+- Next Auth
+- Firebase Store
+- Firebase Authentication
+- React Props
+- React States
+- React Components
+- Javascript Objects
+- Responsive CSS
