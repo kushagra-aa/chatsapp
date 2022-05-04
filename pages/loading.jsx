@@ -14,7 +14,7 @@ const Loading = () => {
     >
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img src={Logo.src} alt=" " height={200} styles={{}} />
-      <DoubleBounce color="#3CBC28" size={60} />
+      <DoubleBounce color="#ff6565" size={60} />
     </div>
   );
 };
