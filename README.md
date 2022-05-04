@@ -10,9 +10,9 @@ Users can enter the mail address for there friends and start chatting
 
 Built with 🤍 For You!
 
-Hosted On vercel
+Hosted On heroku
 
-<a target="_blank" href="https://mysocial-k.vercel.app/">
+<a target="_blank" href="https://chatsapp-k.herokuapp.com/">
   Visit Here
 </a>
 
