@@ -23,8 +23,9 @@ const Message = ({ user, message }) => {
 export default Message;
 const Container = styled.div``;
 const MessageElement = styled.p`
+  color: #f0dde3;
   width: fit-content;
-  padding: 15px;
+  padding: 10px 30px;
   border-radius: 8px;
   margin: 10px;
   min-width: 60px;
@@ -34,14 +35,15 @@ const MessageElement = styled.p`
 `;
 const Sender = styled(MessageElement)`
   margin-left: auto;
-  background: #a3f365;
+  background: #ff6565;
 `;
 const Receiver = styled(MessageElement)`
-  background: whitesmoke;
+  background: #33262e;
   text-align: left;
 `;
 const Timestamp = styled.span`
-  color: gray;
+  color: #d6baba;
+  user-select: none;
   padding: 10px;
   font-size: 9px;
   position: absolute;

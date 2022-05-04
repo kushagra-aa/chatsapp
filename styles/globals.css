@@ -1,22 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 :root {
-  --primary1: #f7f7f7;
-  --primary2: #eeeeee;
-  --primary3: #393e46;
-  --secondary: #929aab;
-  --accent: #f05454;
+  --primary: #f0dde3;
+  --secondary: #33262e;
+  --accent: #ff6565;
 }
 ::-moz-selection {
-  color: var(--primary2);
-  background: var(--accent);
+  color: var(--accent);
+  background: var(--primary);
 }
 /* Code for Firefox */
 ::selection {
-  color: var(--primary2);
-  background: var(--accent);
+  color: var(--accent);
+  background: var(--primary);
 }
 * {
   padding: 0px;
   margin: 0px;
-  color: var(--primary3);
+  color: var(--secondary);
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }

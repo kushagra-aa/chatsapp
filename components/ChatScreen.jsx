@@ -45,8 +45,6 @@ const ChatScreen = ({ chat, messages }) => {
   const recipient = recipientSnapshot?.docs?.[0]?.data();
 
   const showMessages = () => {
-    console.log("messagesSnapshot :>> ", messagesSnapshot);
-    console.log("messages :>> ", messages);
     if (messagesSnapshot) {
       return messagesSnapshot.docs.map((message) => (
         <Message
@@ -162,7 +160,8 @@ const Input = styled.input`
   flex: 1;
   padding: 20px;
   border-radius: 10px;
-  background: whitesmoke;
+  font-size: 18px;
+  background: #ffe4e4;
   margin-left: 15px;
   margin-right: 15px;
 `;

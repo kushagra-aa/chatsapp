@@ -3,6 +3,7 @@ import { signInWithPopup } from "firebase/auth";
 import Head from "next/head";
 import styled from "styled-components";
 import { auth, provider } from "./../firebase";
+import LogoIcon from "./../public/logo.png";
 
 const Login = () => {
   const signIn = () => {
@@ -15,7 +16,7 @@ const Login = () => {
         <title>Login to ChatsApp</title>
       </Head>
       <LoginContainer>
-        <Logo src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/768px-WhatsApp.svg.png" />
+        <Logo src={LogoIcon.src} />
         <Button onClick={signIn} variant="outlined">
           sign in with google
         </Button>
